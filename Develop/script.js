@@ -57,7 +57,7 @@ searchButton.on("click", function() {
     queryURL = "https://api.openweathermap.org/data/2.5/weather?" +
     "q="+ city + "&appid=" + APIKey;
 
-    queryURL3 = "http://api.openweathermap.org/data/2.5/forecast?q=" + 
+    queryURL3 = "https://api.openweathermap.org/data/2.5/forecast?q=" + 
     city + "&appid=" + APIKey
 
     todaysWeatherQuery()
@@ -69,7 +69,7 @@ savedCitiesButton.on("click", function(element) {
     queryURL = "https://api.openweathermap.org/data/2.5/weather?" +
     "q="+ city + "&appid=" + APIKey;
 
-    queryURL3 = "http://api.openweathermap.org/data/2.5/forecast?q=" + 
+    queryURL3 = "https://api.openweathermap.org/data/2.5/forecast?q=" + 
     city + "&appid=" + APIKey
 
     todaysWeatherQuery()
@@ -99,7 +99,7 @@ function todaysWeatherQuery() {
     list.children[1].textContent = "Humidity: " + humidity.toFixed(2)
     list.children[2].textContent = "Wind Speed: " + windspeed.toFixed(2)
     
-    queryURL2 = "http://api.openweathermap.org/data/2.5/uvi?lat=" + 
+    queryURL2 = "https://api.openweathermap.org/data/2.5/uvi?lat=" + 
     lat + "&lon=" + lon + "&appid=" + APIKey
 
     UVQuery()
