@@ -1,0 +1,19 @@
+//Layout
+2 divs, separated by columns
+div 1 gets 3/12
+div 2 get 9/12
+
+div 1 has a search bar and the search history will get prepended to show results
+div 2 will have embedded divs, one with todays info and the other with 5 day forcast
+
+5 day forcast will have a grid like structure - javascript
+
+//javascript
+Type in cities
+When the search button is click, the current (this) text is saved in local storage
+
+Save Cities
+When city is saved in local storage
+Save the city in array of 8 items
+update the first item and delete the last one
+

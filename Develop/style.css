@@ -1,0 +1,74 @@
+header {
+    font-size: 35px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.weatherDetails {
+    border-style: solid;
+}
+
+#searchButton {
+    background-color: rgb(42, 147, 212);
+    color: white;
+}
+
+.searchStyle {
+    background-color: rgb(243, 240, 240);
+}
+
+.savedCities {
+    text-align: left;
+    background-color: white;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-top-right-radius: 5px;
+    border-bottom-style: solid; 
+    border-bottom-color: lightgray;
+    width: 100%;
+}
+
+.savedResults {
+    
+}
+
+#searchBox {
+    height: 500px;
+}
+
+.todayForcast {
+    border-style: solid;
+    border-color: rgb(230, 229, 229);
+    margin-top: 12px;
+    padding-bottom: 10px;
+    height: 50%;
+}
+
+.Title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+ul.list {
+    list-style-type: none;
+}
+
+.fiveDayForcastGrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    
+    height: 45%;
+}
+
+.forcastItem {
+    height: 90%;
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 10%;
+    border-style: solid;
+    
+}
+
+.date {
+    font-size: 17px;
+}

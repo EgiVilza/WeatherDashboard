@@ -1,0 +1,106 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="Develop/style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+
+<header>
+    Weather Dashboard
+</header>
+
+<body>
+
+    <div class="container row" id="searchBox">
+        <div class="col-3 searchStyle">
+            <div>
+                Search for a City
+            </div>
+            <div class="input-group mb-3" >
+                <input type="text" class="form-control formText" placeholder="" aria-label="Example text with two button addons">
+                <button class="btn btn-outline-secondary" id="searchButton" type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                      </svg>
+                </button>
+            </div>
+            <div class="savedResults">
+                <button class="savedCities" id="button0">
+                    St. Louis, MO
+                </button>
+                <button class="savedCities" id="button1">
+                    ""
+                </button>
+                <button class="savedCities" id="button2">
+                    ""
+                </button>
+                <button class="savedCities" id="button3">
+                    ""
+                </button>
+                <button class="savedCities" id="button4">
+                    ""
+                </button>
+                <button class="savedCities" id="button5">
+                    ""
+                </button>
+                <button class="savedCities" id="button6">
+                    ""
+                </button>
+                <button class="savedCities" id="button7">
+                    ""
+                </button>
+            </div>
+        </div>
+
+        <div class="col weatherDetails">
+            <div class="todayForcast">
+                <p class="Title">City - Date</p>
+                <ul class="list">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul> 
+            </div>
+            <div class="fiveDayForcastGrid">
+                <div class="forcastItem">
+                    <p class="date"></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="forcastItem">
+                    <p class="date"></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="forcastItem">
+                    <p class="date"></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="forcastItem">
+                    <p class="date"></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="forcastItem">
+                    <p class="date"></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="Develop/script.js"></script>
+</body>
